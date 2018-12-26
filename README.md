@@ -18,7 +18,7 @@ yarn add @rehooks/clipboard
 
 ### Sample
 
-```js
+```jsx
 import useClipboard from "@rehooks/clipboard";
 
 function MyComponent() {
