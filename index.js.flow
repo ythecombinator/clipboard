@@ -1,0 +1,14 @@
+interface Data {
+  setData(type: string, value: string): void;
+  getData(type: string): string | undefined;
+  forEach(f: (value: string, key: string) => void): void;
+}
+
+interface Clipboard {
+  text: string;
+  data: Data;
+  writeText: (text: string) => void;
+  writeData: (data: Data) => void;
+}
+
+declare export default function useClipboard(): Clipboard;
