@@ -41,7 +41,7 @@ Requests text from the system clipboard; returns a Promise which is resolved wit
 
 Requests arbitrary data (such as images) from the clipboard, returning a Promise. When the data has been retrieved, the promise is resolved with a DataTransfer object that provides the data.
 
-#### `writeText()
+#### `writeText()`
 
 Writes text to the system clipboard, returning a Promise which is resolved once the text is fully copied into the clipboard.
 
