@@ -1,6 +1,6 @@
-# `@rehooks/Clipboard`
+# `@rehooks/clipboard`
 
-> React hook for Clipboard.
+> React hook for providing both read and write access to the system clipboard.
 
 > **Note:** This is using the new [React Hooks API Proposal](https://reactjs.org/docs/hooks-intro.html)
 > which is subject to change until React 16.7 final. This also uses the [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard) which is also experimental; it is a relatively
@@ -32,6 +32,8 @@ function MyComponent() {
 ```
 
 ### API
+
+The `useClipboard` hook takes no parameters and returns an object with the following properties:
 
 #### `text`
 
