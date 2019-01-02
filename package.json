@@ -1,10 +1,10 @@
 {
-  "name": "@rehooks/Clipboard",
+  "name": "@rehooks/clipboard",
   "version": "1.0.0",
-  "description": "React hook for Clipboard",
+  "description": "React hook for providing both read and write access to the system clipboard",
   "main": "index.js",
-  "repository": "https://github.com/rehooks/Clipboard",
-  "author": "Clipboard",
+  "repository": "https://github.com/rehooks/clipboard",
+  "author": "Matheus Albuquerque <ythecombinator.space>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -12,7 +12,7 @@
   "keywords": [
     "react",
     "hooks",
-    "Clipboard"
+    "clipboard"
   ],
   "files": [
     "index.*"
